@@ -1,236 +1,61 @@
-# OmniMarket Prediction Bot
+# OmniMarket
 
-Telegram-native crypto price prediction contests, built for communities, creators, and group owners.
+**Turn any Telegram group into a crypto prediction arena.**
 
-OmniMarket turns Telegram groups and channels into interactive prediction markets where users submit a price prediction, pay an entry fee in TON, and compete for a prize pool — all through a simple, familiar chat experience.
+OmniMarket is a Telegram bot that lets communities run real-money price prediction contests — powered by the TON blockchain. No websites, no sign-ups, no middlemen. Add the bot, create a contest, and your community competes for the prize pool.
 
-> This public README is intentionally focused on product, value, and outcomes. Certain operational, architectural, and proprietary implementation details are not disclosed here.
-
----
-
-## Overview
-
-OmniMarket is a contest infrastructure layer for Telegram.
-
-It enables communities to run fast, repeatable, monetizable crypto prediction contests without requiring users to leave the Telegram environment. Participants join in a few taps, predict where a supported asset will close, and compete for winnings based on accuracy.
-
-The result is a lightweight, social, high-frequency engagement product that combines:
-- community participation,
-- on-chain payments,
-- repeat usage,
-- operator monetization,
-- and data-rich engagement loops.
-
-OmniMarket is designed to make prediction contests feel native to Telegram rather than bolted onto it.
+[![Telegram Bot](https://img.shields.io/badge/Try_it-@OmniMarketBot-blue?logo=telegram&style=for-the-badge)](https://t.me/OmniMarketBot)
+[![TON Blockchain](https://img.shields.io/badge/Built_on-TON-0098EA?logo=ton&style=for-the-badge)](https://ton.org)
 
 ---
 
-## Why It Matters
+## How It Works
 
-Crypto communities live in chat.
+Pick a token. Set a duration. Your group predicts the price. The closest prediction wins.
 
-Most engagement products still force users to jump between multiple apps, wallets, websites, and dashboards. That friction kills participation and retention.
+```
+Create a contest  ──>  Community predicts  ──>  Prices resolve  ──>  Winners get paid
+     (30 sec)            (pay in TON)          (live market data)      (auto, on-chain)
+```
 
-OmniMarket reduces that friction by bringing the entire contest experience into the place users already spend their time:
-- Telegram groups
-- Telegram channels
-- direct messages
-- wallet-based payment flows
-
-For community owners, this creates a new way to drive activity, increase stickiness, and generate revenue from existing audiences.
-
-For participants, it creates a fast, understandable, low-friction format with clear outcomes and repeatable engagement.
+Prizes land directly in winner wallets within seconds. No claims, no delays, no trust required — everything settles on the TON blockchain.
 
 ---
 
-## What OmniMarket Does
+## Why OmniMarket
 
-OmniMarket enables Telegram communities to run crypto price prediction contests with:
+**For community owners** — Monetize your group effortlessly. Earn a share of every contest pool. Recurring contests run themselves. Full admin dashboard included.
 
-- asset-based prediction rounds
-- configurable entry fees
-- automated contest posting and participation flow
-- TON-native payment handling
-- automated result calculation
-- prize distribution
-- repeat contest scheduling
-- referral-driven growth
-- community-facing winner visibility
-- analytics for operators and stakeholders
+**For users** — Predict prices on 20+ tokens including BTC, ETH, TON, SOL, and GOLD. Pay and get paid in TON with instant confirmation.
 
-The system is designed to feel simple on the surface while delivering operational depth underneath.
+**For growth** — Built-in referral program with lifetime commission. Custom shareable links. Public winner announcements that drive engagement.
 
 ---
 
-## Core Product Features
+## Key Highlights
 
-### 1. Telegram-Native User Experience
-OmniMarket is built around the reality that communities already organize, trade ideas, and react to markets inside Telegram.
-
-Users can discover contests, join, submit predictions, and follow outcomes without needing a separate app experience.
-
-### 2. Fast Contest Creation for Community Operators
-Admins can launch contests with minimal setup, making it practical to run prediction rounds regularly rather than as one-off campaigns.
-
-This lowers operational effort and increases the likelihood of sustained usage.
-
-### 3. TON-Based Entry and Reward Flow
-The product uses TON as the value rail for contest participation and payouts, aligning with Telegram’s broader ecosystem and simplifying wallet-compatible participation.
-
-### 4. Automated Contest Lifecycle
-From contest creation to result resolution, OmniMarket is designed to minimize manual work.
-
-This supports scale, consistency, and repeatability for operators.
-
-### 5. Repeatable Engagement Loops
-Communities can run recurring contests that keep users returning on a daily basis.
-
-That makes OmniMarket more than a novelty mechanic — it becomes an engagement engine.
-
-### 6. Monetization for Group and Channel Owners
-OmniMarket is designed not only as a user activity layer, but as an economic layer for community operators.
-
-It gives admins a structured way to participate in the upside created by attention and participation.
-
-### 7. Referral and Distribution Mechanics
-The platform supports viral and affiliate-style growth loops that can expand usage through existing networks rather than relying solely on paid acquisition.
-
-### 8. Operator and Investor Visibility
-OmniMarket generates measurable activity around contests, participation, recurring usage, and platform economics, creating a clearer picture of product traction over time.
+- Fully on-chain — every payment verified, every payout settled on TON
+- Instant payment confirmation (1-3 seconds)
+- Each group gets its own isolated, encrypted wallet
+- Dynamic prize pools that scale with participation
+- 20+ supported tokens with resilient multi-source price feeds
+- Zero-config setup — live in 30 seconds
+- Auto-scheduling for recurring contests
+- Referral system with 5% lifetime commission
+- $OOO token rewards for participants and contest creators
+- Works in both Telegram groups and channels
 
 ---
 
-## Benefits
+## Get Started
 
-## For Communities
-- Creates recurring activity inside Telegram
-- Gives members a reason to return frequently
-- Adds a game layer to existing crypto conversation
-- Makes communities feel more alive and interactive
-- Supports stronger retention and participation
-
-## For Group Owners and Operators
-- Opens a monetization path for existing audiences
-- Requires less manual coordination than traditional contest formats
-- Helps transform passive communities into active ones
-- Can be used for growth, activation, and re-engagement
-- Supports repeatable programming instead of one-off events
-
-## For Users
-- Easy to understand
-- Fast to join
-- Native to the platforms they already use
-- Clear, competitive, and social
-- Built around crypto assets they already follow
-
-## For Investors and Strategic Partners
-- Strong fit with Telegram-native crypto behavior
-- Built around recurring usage rather than one-time interaction
-- Aligns product engagement with transaction activity
-- Designed for operator incentives, not just participant entertainment
-- Offers a foundation for broader market-based community products
+1. Open [@OmniPotentBotbot](https://t.me/OmniMarketBot) on Telegram
+2. Add the bot to your group
+3. Follow the wizard
+4. Share the contest — your community handles the rest
 
 ---
 
-## Product Positioning
+## License
 
-OmniMarket sits at the intersection of:
-
-- Telegram community tooling
-- prediction-based engagement
-- crypto-native payments
-- creator/operator monetization
-- gamified market participation
-
-Rather than trying to be a broad consumer trading product, OmniMarket focuses on a specific high-value use case:
-
-**turning Telegram communities into interactive prediction environments.**
-
-That focus creates a sharper product narrative and a more direct go-to-market path.
-
----
-
-## Why This Model Is Attractive
-
-### High-Frequency Engagement
-Prediction contests are naturally repeatable. Users do not need deep onboarding to participate again.
-
-### Community-Led Distribution
-The product grows through group owners, admins, communities, and referrals rather than relying only on direct consumer acquisition.
-
-### Monetizable Participation
-The model is not based purely on impressions or speculation around future monetization. It is tied to user actions and contest activity.
-
-### Strong Platform Fit
-Telegram remains one of the most important coordination layers in crypto. OmniMarket is built around that reality.
-
-### Scalable Product Surface
-The current product can support a wider ecosystem of community tools, engagement systems, reward layers, and analytics products over time.
-
----
-
-## Use Cases
-
-OmniMarket is well suited for:
-
-- crypto Telegram groups
-- trading communities
-- influencer-led channels
-- alpha groups
-- token communities
-- meme coin communities
-- market commentary channels
-- campaign-led growth communities
-
-Any audience that already discusses price, momentum, or narrative shifts can be a natural fit.
-
----
-
-## Business Value
-
-OmniMarket is designed to create value across multiple layers:
-
-- **user value** through simple, competitive participation
-- **community value** through increased engagement
-- **operator value** through monetization and retention
-- **platform value** through repeat usage and scalable distribution
-
-This makes it more durable than a single-feature bot. It functions as infrastructure for recurring community interaction.
-
----
-
-## Product Philosophy
-
-OmniMarket is built around a simple principle:
-
-**make participation easy, make repetition natural, and make community activity economically meaningful.**
-
-The best products in crypto often do not win because they are the most complex. They win because they remove friction, align incentives, and fit naturally into existing user behavior.
-
-That is the design direction behind OmniMarket.
-
----
-
-## Public Documentation Scope
-
-This repository is intended to communicate the product clearly to:
-- investors
-- partners
-- community operators
-- prospective collaborators
-
-As a result, this README focuses on:
-- the market opportunity
-- the product surface
-- the user and operator value proposition
-- the strategic upside
-
-Detailed internal implementation, infrastructure design, financial routing logic, operational safeguards, and other proprietary components are intentionally not included in this public-facing document.
-
----
-
-## Status
-
-OmniMarket is an active product designed for real-world Telegram usage, community operations, and scalable contest-based engagement.
-
-Additional product, partnership, and growth materials can be shared in private where appropriate.
+Proprietary. All rights reserved.
