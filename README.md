@@ -49,13 +49,13 @@ Prizes land directly in winner wallets within seconds. No claims, no delays, no 
 
 ## Get Started
 
-1. Open [@OmniPotentBotbot](https://t.me/OmniMarketBot) on Telegram
-2. Add the bot to your group
-3. Follow the wizard
-4. Share the contest — your community handles the rest
+1. Open [@OmniMarketBot](https://t.me/OmniMarketBot) on Telegram
+2. Add the bot to your group, and make it admin
+3. Create a contest, and Follow the Contest Wizard
+4. Done — your community handles the rest
+5. Payments are detected and sent automatically to Group Owners, Referrers and Winners.
 
 ---
 
 ## License
-
-Proprietary. All rights reserved.
+OMNIMARKET Proprietary. All rights reserved.
